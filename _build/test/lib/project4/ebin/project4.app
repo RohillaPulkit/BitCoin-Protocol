@@ -1,0 +1,12 @@
+{application,project4,
+             [{applications,[kernel,stdlib,elixir,logger,
+                             phoenixchannelclient]},
+              {description,"project4"},
+              {modules,['Elixir.Block','Elixir.BlockChain',
+                        'Elixir.BroadCaster','Elixir.KeyPair','Elixir.Ledger',
+                        'Elixir.Miners','Elixir.Mining','Elixir.Project4',
+                        'Elixir.ProofOfWork','Elixir.Transaction',
+                        'Elixir.User','Elixir.Utility',
+                        'Elixir.VerifyTransaction','Elixir.Wallet']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
